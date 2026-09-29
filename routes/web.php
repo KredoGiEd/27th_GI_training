@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/', function () {
     return "Neils Route";
 });
+
+Route::get('/test', function () {
+    return view('welcome');
+});
+
